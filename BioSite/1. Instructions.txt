@@ -1,0 +1,74 @@
+﻿Here are the instructions to make a sample Bio website.
+
+You've to do nothing but just change some values.
+
+1> First of all, in {index.html} 
+    8th line : <title>Ojas' Bio</title> .
+     Here, in the place of {ojas' bio} put YOUR title (This will change the site's name)
+
+2> Secondly, in {index.html}     
+    14th and 15th line :<div class="name">FreakyMAN</div>
+                        	   <div class="subName"><i>@Ojas Tamboli</i></div>
+    Here, replace your username/nickname in the place of {FreakyMAN}. And in the place of {@Ojas Tamboli} replace your name/bio    (descripton)
+
+3> Step 3, in {index.html}    
+    25th-27th line : <a href="https://www.instagram.com/disc.FREAK_12/" target="_blank" class="btn"id="Instagram">Instagram</a>
+                     <a href="https://www.youtube.com/channel/UCaSKEOyczFl1OfKXSz82aTg" target="_blank" class="btn" id="YouTube">YouTube</a>
+                     <a href="https://discordapp.com/users/904608874580037643" target="_blank" class="btn" id="discord">Discord</a>
+    Here, replace your links. 
+    And, if you want to Put some other social media accounts (links) then put the link and then replace your social media name
+    eg, I want to add twitter in place of instagram then <replace(instagram) with (twitter)>
+
+We've done editing (index.html)
+
+Now, let's go with (main.js)
+
+1> Here, we just have to replace a few quantities 
+   First of all, in 2nd line : const phrases = ['Developer.', 'Gamer.','Artist.']
+   You can replace your hobbies with mine. 
+   eg, replace (Artist) with (Anime Enthusiast) or (Weeb) :)
+
+We're done with (main.js)
+
+Now, let's start with (style.css) {In this, you'll have options of setting colour to almost everything}
+
+Before starting with (style.css) I am assuming you <reader> are editing this project in Microsoft Visual Code. If not, try to install VS Code in your pc.
+
+
+1> Firstly , 
+   In 52nd line : #intrest {
+                  color: rgb(26, 1, 250);
+   You can change the colour of the text from here by simply clicking on the (rgb) command {VS Code Highly Recommended} and selecting your colour.
+   by doing this your colour of the intrest text changes.
+
+2> Secondly, and most importantly 
+   In the body section (from line 12) : 
+ -  body {
+ -  left: 50%;
+ -  right: 50%;
+ -> ||HERE||  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+              url(Miku.jpg);
+    
+    Make sure your background image is renamed as "Miku.jpg" and is in .jpg format. 
+
+
+-------------=----------------------=---------------------=--------------------=---------------------=----------
+
+    Edit : in (index.html) line 13 :  <img src="images.jpg" id="mainImage">
+                                    Add your image and just rename "images.jpg" to your image name
+
+------------=--------------------------=--------------------=--------------------=-------------------=-------
+
+HOPE YOU FIND IT HELPFUL :)
+
+Notes {not important} : 
+- When I tried it it worked and after setting up the domain I found that it was difficult to see the site on Mobile devices.
+- I guess you <reader> love reading because you are reading this xD.
+
+I'll keep adding notes whenever I get something new.
+
+
+╔═╦╗╔╦╗╔═╦═╦╦╦╦╗╔═╗
+║╚╣║║║╚╣╚╣╔╣╔╣║╚╣═╣ 
+╠╗║╚╝║║╠╗║╚╣║║║║║═╣
+╚═╩══╩═╩═╩═╩╝╚╩═╩═╝

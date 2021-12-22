@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "ABeeZee", sans-serif;
+}
+
+body {
+  left: 50%;
+  right: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+    url(Miku.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.mainSection {
+  left: 50%;
+  text-align: center;
+}
+
+#mainImage {
+  height: 150px;
+  padding: 0 20px;
+  padding-top: 18vh;
+  padding-bottom: 15px;
+}
+
+.name {
+  font-size: 40px;
+}
+
+.subName {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.intr {
+  padding-bottom: 25px;
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+#intrest {
+  color: rgb(26, 1, 250);
+}
+
+.btn {
+  text-align: center;
+  border: 1px solid #fff;
+  align-items: center;
+  padding: 10px 100px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+  border-radius: 35px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.links {
+  padding: 15px;
+}
+
+.belive {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+.quotation {
+  font-size: 40px;
+}
+
+.blue {
+  color: rgb(26, 1, 250);
+  font-size: 40px;
+}
+
+.normal {
+  font-size: 32px;
+}
